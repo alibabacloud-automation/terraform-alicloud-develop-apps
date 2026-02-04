@@ -1,12 +1,10 @@
-# Alibaba Cloud Development Application Infrastructure Terraform Module
+Alibaba Cloud Development Application Infrastructure Terraform Module
 
-================================================ 
+# terraform-alicloud-develop-apps
 
-terraform-alicloud-develop-apps
+English | [简体中文](https://github.com/alibabacloud-automation/terraform-alicloud-develop-apps/blob/main/README-CN.md)
 
-English | [简体中文](README-CN.md)
-
-This Terraform module creates a complete development application infrastructure on Alibaba Cloud, including VPC, ECS instances, RDS database, security groups, and optional DNS configuration.
+This Terraform module implements the [Efficiently Build Apps On The Cloud](https://www.aliyun.com/solution/tech-solution/develop-apps) solution, providing a complete infrastructure for developing and deploying mobile applications on Alibaba Cloud. The solution leverages Alibaba Cloud's Mobile R&D Platform (EMAS) and R&D Collaboration Platform (Cloud Efficiency) to offer comprehensive lifecycle management capabilities for apps, including development, testing, operations, and marketing. This module creates the necessary infrastructure including Virtual Private Cloud (VPC), Virtual Switch (VSwitch), RDS Database (RDS), Elastic Compute Service (ECS), security groups, and optional DNS configuration to support the solution. The solution enables efficient app development by providing various mobile technology SDKs, continuous integration and deployment workflows, automated testing capabilities, and streamlined release management.
 
 ## Usage
 
@@ -80,7 +78,7 @@ module "develop_apps" {
 
 ## Examples
 
-* [Complete Example](https://github.com/alibabacloud-automation/terraform-alicloud-develop-apps/tree/main/examples/complete) - Creates a complete development application infrastructure with all components
+* [Complete Example](https://github.com/alibabacloud-automation/terraform-alicloud-develop-apps/tree/main/examples/complete)
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements

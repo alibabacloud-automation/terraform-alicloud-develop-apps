@@ -1,12 +1,10 @@
-# 阿里云开发应用基础设施 Terraform 模块
+阿里云开发应用基础设施 Terraform 模块
 
-================================================ 
+# terraform-alicloud-develop-apps
 
-terraform-alicloud-develop-apps
+[English](https://github.com/alibabacloud-automation/terraform-alicloud-develop-apps/blob/main/README.md) | 简体中文
 
-[English](README.md) | 简体中文
-
-该 Terraform 模块在阿里云上创建完整的开发应用基础设施，包括 VPC、ECS 实例、RDS 数据库、安全组和可选的 DNS 配置。
+本模块实现了[高效构建移动 App](https://www.aliyun.com/solution/tech-solution/develop-apps)解决方案，提供在阿里云上开发和部署移动应用的完整基础设施。该解决方案利用阿里云移动研发平台 EMAS 和研发协同平台云效，提供 App 开发生命周期的全面管理能力，包括开发、测试、运维和运营。本模块创建了必要的基础设施，包括专有网络（VPC）、交换机（VSwitch）、RDS 数据库（RDS）、云服务器（ECS）、安全组和可选的 DNS 配置，以支持该解决方案。该方案通过提供多种移动技术 SDK、持续集成和部署工作流、自动化测试能力和简化的发布管理，实现高效的应用开发。
 
 ## 使用方法
 
@@ -80,7 +78,7 @@ module "develop_apps" {
 
 ## 示例
 
-* [完整示例](https://github.com/alibabacloud-automation/terraform-alicloud-develop-apps/tree/main/examples/complete) - 创建包含所有组件的完整开发应用基础设施
+* [完整示例](https://github.com/alibabacloud-automation/terraform-alicloud-develop-apps/tree/main/examples/complete)
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
